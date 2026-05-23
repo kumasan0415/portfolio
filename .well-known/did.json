@@ -1,1 +1,48 @@
-{"id":"did:web:did.kumasan-noc.net","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:did.kumasan-noc.net"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://did.kumasan-noc.net/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://hub.did.msidentity.com/v1.0/bafa2380-6294-4d27-bb8b-3e1657fe0ec6"]}}],"verificationMethod":[{"id":"#26a73547dae9492f819b5440c26b5463vcSigningKey-15d10","controller":"did:web:did.kumasan-noc.net","type":"JsonWebKey2020","publicKeyJwk":{"crv":"P-256","kty":"EC","x":"af-ktPXzSZNy0GVLDIxmmT5uI6duX1iXAU6GyrhkhPc","y":"iWPwN6MjCbzti88pY7h9aVxxnFQvUyLNurXXFyGlC0Q"}}],"authentication":["#26a73547dae9492f819b5440c26b5463vcSigningKey-15d10"],"assertionMethod":["#26a73547dae9492f819b5440c26b5463vcSigningKey-15d10"]}
+{
+  "id": "did:web:did.kumasan-noc.net",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:did.kumasan-noc.net"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://did.kumasan-noc.net/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/bafa2380-6294-4d27-bb8b-3e1657fe0ec6"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#e3f89702e8354b488eccf9dfc8f7e9e4vcSigningKey-cfc37",
+      "controller": "did:web:did.kumasan-noc.net",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "28Nm2OWQudk0bL72SZt7KytX5mefLFJyUmXkcoIoopY",
+        "y": "vJjTe6ewXGhd9pOOUDXrP7msFkJtd5GizRsnEX6WleI"
+      }
+    }
+  ],
+  "authentication": [
+    "#e3f89702e8354b488eccf9dfc8f7e9e4vcSigningKey-cfc37"
+  ],
+  "assertionMethod": [
+    "#e3f89702e8354b488eccf9dfc8f7e9e4vcSigningKey-cfc37"
+  ]
+}
